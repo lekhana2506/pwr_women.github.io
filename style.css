@@ -135,6 +135,17 @@
 
 @media (max-width:526px)
 {
+    .navbar{
+        -ms-flex-align:flex-start ;
+    }
+    .navbar ul{
+        margin:0;
+        padding: 0;
+    }
+    .logo-name{
+        margin:0;
+        padding: 0;
+    }
     .btn{
         width:70px;
         height:30px;
@@ -175,11 +186,6 @@
 
 @media (max-width:488px)
 {
-    .news-items{
-        display:block;
-        justify-content: center;
-        margin-left: 50px;
-    }
     .navbar{
         -ms-flex-align:flex-start ;
     }
