@@ -1,0 +1,213 @@
+.navbar{
+    justify-content: space-evenly;
+}
+.nav-items{
+    display:flex;
+    gap:50px;
+    color:rgba(33,62,140,1);
+}
+
+.navbar li{
+    list-style: none;
+}
+
+.logo-name{
+    justify-items: center;
+}
+.news-items{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    justify-content: center;
+}
+.image-obama{
+    width:110px;
+    height:110px;
+    border-radius: 50%;
+}
+.body-color {
+    background-color: rgba(33,62,140,1);
+    color: white;
+}
+.calender{
+    margin:20px;
+}
+.calender-items{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+.Register-button{
+    background-color:rgba(200,72,105,1);
+    color:white;
+    padding:10px 20px;
+    border-style:none;
+    font-size: 1rem;
+    margin-right:3px
+}
+.Read-more{
+    border:0.5px solid rgba(200,72,105,1);
+    background-color: white;
+    padding:10px 20px;
+    font-size: 1rem;
+}
+.join-us{
+    display: flex;
+    justify-content: space-between;
+}
+.join-us h1{
+    font-size: 5rem;
+    margin-bottom: 20px;
+}
+.left-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:70vh;
+    background-color: rgba(33,62,140,1);
+    color: white;
+    text-align: center;
+    width:60%;
+}
+.right-box img{
+    width:100vh;
+    height:70vh;
+    margin:0;
+}
+
+@media (max-width:1063px){
+    .navbar{
+        justify-content: flex-start;
+    }
+    .nav-items{
+        justify-content: flex-start;
+        gap:20px;
+        margin:0px 5px;
+    }
+}
+/*@media (max-width:1000px)
+{
+    .nav-items li{
+        display:none;
+    }
+}*/
+@media (max-width:772px)
+{
+    .news-items{
+        display:block;
+        justify-content: center;
+        margin-left: 105px;
+    }
+    .card{
+        margin-bottom: 10px;
+    }
+
+}
+@media (max-width:763px)
+{
+    
+    .nav-items{
+        justify-content: flex-start;
+        gap:10px;
+        font-size: 15px;
+    }
+    .logo-name p{
+        font-size: 15px;
+    }
+}
+@media (max-width:648px)
+{
+    .nav-items{
+        justify-content: flex-start;
+        gap:6px;
+        font-size: 12px;
+    }
+    .logo-name p{
+        font-size: 12px;
+    }
+    .btn{
+        width:80px;
+        height:40px;
+        font-size:10px;
+    }
+}
+
+@media (max-width:526px)
+{
+    .btn{
+        width:70px;
+        height:30px;
+        font-size:8px;
+    }
+}
+
+@media (max-width:500px)
+{
+    .news-items{
+        display:block;
+        justify-content: center;
+        margin-left: 70px;
+    }
+    .btn{
+        width:60px;
+        height:20px;
+        font-size:8px;
+        padding-top: 4px;
+    }
+    .nav-items{
+        gap:5px;
+        font-size: 12px;
+    }
+    .logo-name p{
+        font-size: 12px;
+    }
+
+    .nav-items svg{
+       display: none;
+    }
+
+    .navbar{
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width:450px)
+{
+    .news-items{
+        display:block;
+        justify-content: center;
+        margin-left: 50px;
+    }
+
+}
+@media (max-width:767px)
+{
+    .Register-button{
+        margin-bottom: 4px;
+        padding:10px 31px;
+    } 
+}
+
+@media (max-width:1604px)
+{
+
+    .join-us{
+        flex-direction: column;
+    }
+    .left-box{
+        justify-content: center;
+        align-items: center;
+        height:40vh;
+        background-color: rgba(33,62,140,1);
+        color: white;
+        text-align: center;
+        width:100%;
+    }
+    .right-box img{
+        width:100%;
+        height:50vh;
+    }
+}
+
